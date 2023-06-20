@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1050px) {
+  .Protein_Outer_orange_border {
+    width: 32.5rem;
+    height: 51rem;
+  }
+  .Small_protein_box_image {
+    width: 52rem;
+    height: 53rem;
+    top: 1rem;
+    left: -2rem;
+  }
+  .Whey_protein_text {
+    width: 45%;
+  }
+  .Protein_Small_box_with_Orange_outer_border {
+    top: 2.3rem;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .Whey_ProTein_container {
+    gap: 57rem;
+  }
+  .Cart_button1,
+  .Cart_button2 {
+    width: 28rem;
+    padding: 1.5rem 0rem;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .Whey_ProTein_container {
+    gap: 42rem;
+  }
+  .Protein_Outer_orange_border {
+    width: 26rem;
+    height: 47rem;
+  }
+  .Small_protein_box_image {
+    width: 48rem;
+    height: 49rem;
+    top: 1rem;
+    left: -2rem;
+  }
+  .Protein_Small_box_with_Orange_outer_border {
+    position: absolute;
+    left: 17rem;
+    top: 4rem;
+  }
+  .Cart_button1,
+  .Cart_button2 {
+    width: 27rem;
+    padding: 1.5rem 0rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Vertical_text_Protein {
+    display: none !important;
+  }
+  .Whey_protein_text {
+    width: 55%;
+  }
+  .Protein_Small_box_with_Orange_outer_border {
+    left: 6rem;
+  }
+  .Whey_ProTein_container {
+    justify-content: end;
+  }
+  .Protain_KG_1_btn {
+    width: 14rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Protein_Small_box_with_Orange_outer_border {
+    display: none !important;
+  }
+  .Whey_protein_text {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .Whey_ProTein_container {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Cart_button1,
+  .Cart_button2 {
+    width: 20rem;
+    padding: 1.5rem 0rem;
+  }
+  .Protain_KG_1_btn {
+    width: 14rem;
+  }
+}

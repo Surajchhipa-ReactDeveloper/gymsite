@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1150px) {
+  .Footer_Container {
+    gap: 15rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Footer_Container {
+    gap: 12rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Footer_Container {
+    gap: 10rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Footer_Container {
+    gap: 8rem;
+  }
+  .Footer_box1 {
+    width: 40rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Footer_Container {
+    gap: 6rem;
+  }
+  .Footer_box1 {
+    width: 35rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Footer_Container {
+    gap: 4.5rem;
+  }
+  .Footer_box1 {
+    width: 32rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .Footer_Container {
+    gap: 3rem;
+    flex-direction: column;
+  }
+  .Footer_box1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    text-align: center;
+
+  }
+  .FooCoBox {
+    /* flex-direction: row; */
+    width: 100%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Footer_Container {
+    gap: 3rem;
+    flex-direction: column;
+  }
+  .Footer_box1 {
+    width: 80%;
+    text-align: center;
+  }
+  .FooCoBox {
+    /* flex-direction: row; */
+    width: 100%;
+    align-items: center;
+  }
+}

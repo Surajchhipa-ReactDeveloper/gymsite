@@ -1,0 +1,15 @@
+.BackHeading_container {
+  font-size: 9.6rem;
+  line-height: 11.4rem;
+  letter-spacing: 1.5rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #5e5e5e;
+  font-family: "Sf_pro_Bold";
+}
+@media only screen and (max-width: 400px) {
+  .BackHeading_container {
+    font-size: 9rem;
+    line-height: 11.4rem;
+    letter-spacing: 1.3rem;
+  }
+}

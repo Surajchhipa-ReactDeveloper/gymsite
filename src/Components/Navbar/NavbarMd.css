@@ -1,0 +1,122 @@
+@media only screen and (max-width: 948px) {
+  .Main_logo {
+    width: 21.75rem;
+    height: 9.975rem;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .Main_logo {
+    width: 20.75rem;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .Main_logo {
+    width: 19.75rem;
+    height: 9.975rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .Main_logo {
+    width: 18.75rem;
+    height: 9.975rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Menu_button_container {
+    display: block;
+    height: 10rem;
+    width: 9rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 82%; */
+  }
+  .Open_Bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .Hamburger_Menu {
+    object-fit: cover;
+    object-position: center;
+    width: 5rem;
+    /* color: #e41c26; */
+    /* fill: #e41c26; */
+    cursor: pointer;
+    /* border: 2px solid red; */
+  }
+  .close_Menu {
+    fill: #e41c26;
+    color: #e41c26;
+  }
+  .navbar_Right_item {
+    background-color: #e41c26;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .NavBar_links {
+    display: none !important;
+  }
+  .navbar_Right_item_top,
+  .NavBar_links,
+  .search-icon-container,
+  .Hamburger_Navbar_white {
+    display: none;
+  }
+  /* ************** navbar link Start************ */
+  .Mobile_Navbar {
+    display: flex;
+    position: fixed;
+    top: 10rem;
+    right: 10rem;
+    left: 0rem;
+    width: 100%;
+    height: 100vh;
+    background-color: #e41c26;
+    z-index: 40;
+    transition: all 2s ease-in-out;
+  }
+  .Navigation_links {
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    height: 100vh;
+    transition: all 15s ease-in-out;
+  }
+  .Navigation_links li a {
+    color: #ffffff;
+    font-size: 3rem;
+    line-height: 1.9rem;
+    cursor: pointer;
+    font-family: "futura_Book_Regular";
+  }
+  .Navigation_links li a:hover {
+    color: rgba(255, 255, 255, 0.885);
+    font-weight: bold;
+  }
+
+  /* ************** navbar link End************ */
+}
+@media only screen and (max-width: 710px) {
+  .Main_logo {
+    width: 17rem;
+    height: 9.975rem;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .Main_logo {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .Navbar {
+    padding-left: 2rem;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .Mobile_Navbar {
+    height: 90vh;
+  }
+}

@@ -1,0 +1,352 @@
+@media only screen and (max-width: 1490px) {
+  .SliderVideoFlexContainer {
+    width: 69vw;
+  }
+  .Video_slider_main_container {
+    gap: 8.5rem;
+  }
+}
+@media only screen and (max-width: 1390px) {
+  .SliderVideoFlexContainer {
+    width: 72vw;
+  }
+  .Video_slider_main_container {
+    gap: 8.5rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .SliderVideoFlexContainer {
+    width: 74vw;
+  }
+  .Video_slider_main_container {
+    gap: 7rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .SliderVideoFlexContainer {
+    width: 69vw;
+  }
+  .Video_slider_main_container {
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .SliderVideoFlexContainer {
+    width: 72vw;
+  }
+  .Video_slider_main_container {
+    gap: 7rem;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .SliderVideoFlexContainer {
+    width: 77vw;
+  }
+  .Video_slider_main_container {
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .SliderVideoFlexContainer {
+    width: 80vw;
+  }
+  .Video_slider_main_container {
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .SliderVideoFlexContainer {
+    width: 80vw;
+  }
+  .Video_slider_main_container {
+    gap: 7rem;
+  }
+  .Video {
+    width: 94%;
+  }
+  .VideoSlider_slider {
+    min-width: 57rem;
+  }
+  .Video_Overlay {
+    min-width: 54.7rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .SliderVideoFlexContainer {
+    width: 83vw;
+  }
+  .Video_slider_main_container {
+    gap: 6rem;
+  }
+  .Video {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .SliderVideoFlexContainer {
+    width: 85.5vw;
+  }
+  .Video_slider_main_container {
+    gap: 5rem;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .SliderVideoFlexContainer {
+    width: 85.5vw;
+  }
+  .Video_slider_main_container {
+    gap: 5rem;
+  }
+  .Video {
+    width: 88%;
+  }
+  .VideoSlider_slider {
+    min-width: 55rem;
+  }
+  .Video_Overlay {
+    min-width: 51rem;
+  }
+  .hello {
+    left: 8rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .SliderVideoFlexContainer {
+    width: 80vw;
+  }
+  .Video_slider_main_container {
+    /* gap: 5rem; */
+  }
+  .Video {
+    width: 82%;
+    min-height: 33rem;
+  }
+  .VideoSlider_slider {
+    min-width: 49.5rem;
+  }
+  .hello {
+    width: 35.1rem;
+    height: 7.7rem;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 7.2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .SliderVideoFlexContainer {
+    width: 80vw;
+  }
+  .Video_slider_main_container {
+    gap: 5rem;
+  }
+  .Video {
+    width: 82%;
+    min-height: 33rem;
+  }
+  .Video_Overlay {
+    min-width: 47.5rem;
+    min-height: 33rem;
+  }
+  .hello {
+    width: 35.1rem;
+    height: 7.7rem;
+    bottom: -0.5rem;
+    left: 7.2rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .SliderVideoFlexContainer {
+    width: 83vw;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .SliderVideoFlexContainer {
+    width: 82vw;
+  }
+  .Video {
+    width: 75%;
+    min-height: 29rem;
+  }
+  .Video_Overlay {
+    min-width: 43.5rem;
+    min-height: 29rem;
+  }
+  .VideoSlider_slider {
+    min-width: 46.5rem;
+  }
+  .hello {
+    width: 31.1rem;
+    height: 7.7rem;
+    bottom: 4.5rem;
+    left: 6.5rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .SliderVideoFlexContainer {
+    width: 85vw;
+  }
+  .VideoSlider_slider {
+    /* min-width: 49rem; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  .SliderVideoFlexContainer {
+    width: 50.2vw;
+  }
+  .VideoSlider_slider {
+    min-width: 60rem;
+  }
+  .Video {
+    width: 100%;
+    min-height: 32rem;
+  }
+  .Video_Overlay {
+    min-width: 58.5rem;
+    min-height: 32rem;
+  }
+  .Video_slider_main_container {
+    /* gap: 9rem; */
+  }
+  .hello {
+    width: 37.1rem;
+    height: 7.7rem;
+    bottom: 1.5rem;
+    left: 11.5rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .SliderVideoFlexContainer {
+    width: 54vw;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .SliderVideoFlexContainer {
+    width: 58vw;
+  }
+  .About_video {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 623px) {
+  .SliderVideoFlexContainer {
+    width: 62vw;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .SliderVideoFlexContainer {
+    width: 62vw;
+  }
+  .Video {
+    width: 94%;
+    min-height: 30rem;
+  }
+  .Video_Overlay {
+    min-width: 54.5rem;
+    min-height: 30rem;
+  }
+  .VideoSlider_slider {
+    min-width: 57rem;
+  }
+
+  element.style {
+  }
+  .hello {
+    width: 34.1rem;
+    height: 7.7rem;
+    bottom: 3.5rem;
+    left: 9.5rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .SliderVideoFlexContainer {
+    width: 67vw;
+  }
+    .About_video {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .SliderVideoFlexContainer {
+    width: 67vw;
+    padding-left: 1.5rem;
+  }
+  .Video {
+    width: 85%;
+    min-height: 30rem;
+  }
+  .Video_Overlay {
+    min-width: 49.2rem;
+    min-height: 30rem;
+  }
+  .VideoSlider_slider {
+    min-width: 52rem;
+  }
+  .hello {
+    width: 32.1rem;
+    height: 7.7rem;
+    bottom: 3.5rem;
+    left: 8.5rem;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .SliderVideoFlexContainer {
+    width: 77vw;
+    padding-left: 4rem;
+  }
+    .About_video {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .SliderVideoFlexContainer {
+    width: 75vw;
+  }
+  .Video {
+    width: 80%;
+    min-height: 29rem;
+  }
+  .Video_Overlay {
+    min-width: 46.5rem;
+    min-height: 29rem;
+  }
+  .VideoSlider_slider {
+    min-width: 49rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .SliderVideoFlexContainer {
+    width: 75vw;
+  }
+  .Video {
+    width: 74%;
+    min-height: 26rem;
+  }
+  .Video_Overlay {
+    min-width: 42.9rem;
+    min-height: 26rem;
+  }
+  .VideoSlider_slider {
+    min-width: 45rem;
+  }
+  .hello {
+    width: 29.1rem;
+    height: 7.7rem;
+    bottom: 6.5rem;
+    left: 6.77rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .SliderVideoFlexContainer {
+    width: 79.5vw;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .SliderVideoFlexContainer {
+    width: 86vw;
+  }
+  .VideoSlider_heading {
+    font-size: 5rem;
+  }
+}

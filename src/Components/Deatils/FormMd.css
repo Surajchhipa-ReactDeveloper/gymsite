@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1030px) {
+  .User_Form_top_Heading {
+    font-size: 5.5rem;
+  }
+  .User_Form_Title {
+    font-size: 3.2rem;
+  }
+  .NAME input,
+  .Email input {
+    width: 40rem;
+    height: 5.8rem;
+  }
+  .Subscribe_Btn {
+    width: 40rem;
+    height: 5.6rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .User_Form_top_Heading {
+    font-size: 5rem;
+  }
+  .User_Form_Title {
+    font-size: 2.9rem;
+  }
+  .NAME input,
+  .Email input {
+    width: 39rem;
+    height: 5.8rem;
+  }
+  .Subscribe_Btn {
+    width: 39rem;
+
+    height: 5.6rem;
+  }
+  .User_Form {
+    justify-content: center;
+    gap: 3rem;
+    width: 115.3rem;
+  }
+  .User_Form_Left_Container {
+    width: 55.4rem;
+    height: 30.6rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .User_Form_top_Heading {
+    font-size: 4.6rem;
+  }
+  .User_Form_Title {
+    font-size: 2.6rem;
+  }
+  .NAME input,
+  .Email input {
+    width: 35rem;
+    height: 5.8rem;
+  }
+  .Subscribe_Btn {
+    width: 35rem;
+    height: 5.6rem;
+  }
+  .User_Form {
+    justify-content: center;
+    gap: 3rem;
+    width: 105.3rem;
+  }
+  .User_Form_Left_Container {
+    width: 52.4rem;
+    height: 30.6rem;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .User_Form_top_Heading {
+    /* font-size: 4.2rem; */
+  }
+  .User_Form_Title {
+    /* font-size: 2.4rem; */
+  }
+  .NAME input,
+  .Email input {
+    width: 31rem;
+    height: 5.8rem;
+  }
+  .Subscribe_Btn {
+    width: 31rem;
+    height: 5.6rem;
+  }
+  .User_Form {
+    justify-content: center;
+    gap: 4rem;
+    width: 101.3rem;
+  }
+  .User_Form_Left_Container {
+    width: 46rem;
+    height: 30.6rem;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .NAME input,
+  .Email input {
+    width: 29rem;
+    height: 5.8rem;
+  }
+  .Subscribe_Btn {
+    width: 29rem;
+    height: 5.6rem;
+  }
+  .User_Form {
+    justify-content: center;
+    gap: 3rem;
+    width: 88rem;
+  }
+  .User_Form_Left_Container {
+    width: 44rem;
+    height: 30.6rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .NAME input,
+  .Email input {
+    width: 50rem;
+  }
+  .Subscribe_Btn {
+    width: 50rem;
+  }
+  .User_Form {
+    /* padding-top: 5rem; */
+    margin-top: 5rem;
+    width: 70rem;
+    height: 50vh;
+    padding: 5rem 0rem ;
+    /* height: fit-content; */
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    flex-direction: column;
+  }
+/* 
+  .User_Form_Left_Container {
+    display: none;
+  } */
+}
+@media only screen and (max-width: 440px) {
+  .NAME input,
+  .Email input {
+    width: 45rem;
+  }
+  .Subscribe_Btn {
+    width: 45rem;
+  }
+  .User_Form {
+    width: 58rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .NAME input,
+  .Email input {
+    width: 40rem;
+  }
+  .Subscribe_Btn {
+    width: 40rem;
+  }
+  .User_Form {
+    width: 50rem;
+  }
+}

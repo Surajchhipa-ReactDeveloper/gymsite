@@ -1,0 +1,62 @@
+.RadBar_container_position {
+  position: relative;
+  /* border: 2px solid green; */
+  /* min-width: fit-content; */
+}
+.RadBar_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(242, 255, 0); */
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: -10rem;
+  margin-left: 20rem;
+}
+.RadBar_Left_Side,
+.RadBar_Left_Side img {
+  max-width: 42.8rem;
+  max-height: 26.4rem;
+  object-fit: contain;
+  object-position: center;
+}
+.RedBar_Title {
+  /* font-size: 5.9rem;
+  line-height: 7.7rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Futura_Bold";
+  font-weight: bold; */
+}
+.RedBar_Title_border {
+  /* border: 2px solid white;
+  width: 20%; */
+}
+.RedBar_Description {
+  /* font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: white;
+  font-family: "Futura_Medium";
+  max-width: 73.1rem;
+  max-height: 5.8rem; */
+}
+.RedBar_Btn {
+  /* width: fit-content;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1.1rem 1.5rem;
+  text-align: center; */
+}
+
+.RadBar_Right_Side {
+  background-color: #e41c26;
+  gap: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 117.4rem;
+  min-height: 26.4rem;
+  /* border: 2px solid blue; */
+}

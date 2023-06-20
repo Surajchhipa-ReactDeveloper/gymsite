@@ -1,0 +1,87 @@
+.Whey_ProTein_container {
+  display: flex;
+  gap: 62rem;
+  position: relative;
+  background-color: white;
+  width: 95%;
+}
+.Vertical_text_Protein {
+  text-align: center;
+}
+.Protein_Small_box_with_Orange_outer_border {
+  position: absolute;
+  left: 22rem;
+  top: 1rem;
+}
+
+.Protein_Outer_orange_border {
+  width: 37rem;
+  height: 59rem;
+  object-fit: fill;
+}
+.Small_protein_box_image {
+  width: 62.9rem;
+  height: 62.9rem;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: -1px;
+  left: -3rem;
+}
+.Whey_protein_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Vertical_text_Protein {
+  padding: 0;
+}
+.Protein_wait_button {
+  display: flex;
+  gap: 2rem;
+}
+.Protain_KG_1_btn {
+  cursor: pointer;
+  text-align: center;
+  padding: 1.2rem;
+  width: 16rem;
+  border-radius: 3rem;
+  background-color: #ececec;
+  border: 1px solid black;
+  /* transform: scale(0.2); */
+}
+.Protain_KG_1_btn:hover {
+  transform: scale(1.01);
+  transition: all 1s ease out;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.169);
+}
+
+.Protain_box_Price {
+  font-size: 5.9rem;
+  line-height: 6.7rem;
+  font-family: "Futura_Bold";
+}
+.Add_cart_ADD_Wist_Button {
+  display: flex;
+  gap: 4rem;
+}
+.Cart_button1 {
+  cursor: pointer;
+  width: 30rem;
+  padding: 1.5rem 3rem;
+  background-color: black;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+.Cart_button2 {
+  cursor: pointer;
+
+  width: 30rem;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: #ececec;
+}

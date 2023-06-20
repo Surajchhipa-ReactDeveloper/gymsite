@@ -1,0 +1,30 @@
+@media only screen and (max-width: 613px) {
+  .Category_img img {
+    width: 11rem;
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Category_img img {
+    min-width: 9.5rem;
+    height: 8.5rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .Category1,
+  .Category2,
+  .Category3 {
+    align-items: center;
+  }
+  .Category_text1,.Category_text2,.Category_text3{
+    text-align: center;
+  }
+  .Background_img1 img,
+  .Background_img2 img,
+  .Background_img3 img {
+    right: 43%;
+  }
+  .Background_img3 img {
+    left: 43%;
+  }
+}

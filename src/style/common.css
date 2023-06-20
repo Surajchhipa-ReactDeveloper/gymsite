@@ -1,0 +1,162 @@
+.Media_logo {
+  min-height: 2.5rem;
+  max-width: 2.5rem;
+  object-position: center;
+  object-fit: contain;
+}
+.media_logo_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Email_And_Phone {
+  object-fit: cover;
+  width: 1.6rem;
+  height: 1.5rem;
+}
+.Category_Common {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 1.5rem;
+}
+.Category_type_Common {
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  font-family: "Futura_Bold";
+  font-weight: bold;
+}
+.Category_text_common {
+  width: 80%;
+  font-family: "Sf_pro_Regular";
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+.Background_img_Common img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 14.78rem;
+  opacity: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 11rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Common_text_heading {
+  font-size: 5.9rem;
+  line-height: 7.7rem;
+  font-family: "Futura_Bold";
+  font-weight: bold;
+}
+.Common_text_border {
+  border: 2px solid #e41c26;
+  width: 18.6rem;
+}
+.Common_Description_for_all_container {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-family: "Futura_Medium";
+  font-family: "futura_Medium";
+  padding-right: 4rem;
+}
+.All__container_common_title_top {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-family: "Sf_pro_Bold";
+  color: #5e5e5e;
+}
+.Common_container_with_back_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 5rem;
+}
+.Common_border_BackText {
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+.back_text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.Common_Head_Border {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.Common_On_text_heading {
+  font-size: 5.9rem;
+  line-height: 7.7rem;
+  font-family: "Futura_Bold";
+  /* color: white; */
+  font-weight: bold;
+}
+.Common_OnTextBorder {
+  border: 2px solid #e41c26;
+  width: 18rem;
+}
+.Common_Bottom_Text_Desc {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  /* color: #d1d1d1; */
+  text-align: center;
+  width: 75%;
+  font-family: "futura_Medium";
+}
+.Common_white_Title {
+  font-size: 5.9rem;
+  line-height: 7.7rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Futura_Bold";
+  font-weight: bold;
+}
+.Common_white_Border {
+  border: 2px solid white;
+  width: 20%;
+}
+.Common_White_Description {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: white;
+  font-family: "Futura_Medium";
+  max-width: 73.1rem;
+  max-height: 5.8rem;
+  text-transform: capitalize;
+}
+.Common_Transparent_Button {
+  width: fit-content;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1.1rem 1.5rem;
+  text-align: center;
+}
+
+.Common_Vertical_line {
+  font-size: 12.3rem;
+  line-height: 14.7rem;
+  letter-spacing: 1.5rem;
+  text-align: end;
+  writing-mode: vertical-rl;
+  -ms-writing-mode: bt-rl;
+  transform: rotate(180deg);
+  -webkit-text-stroke: 1px #5e5e5e;
+  color: transparent;
+  font-family: "Sf_pro_Bold";
+  padding: 0rem 0rem 15rem 0rem;
+}

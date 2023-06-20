@@ -1,0 +1,186 @@
+/* 
+**************************************************************
+Home Gallery container css Start
+*********************************************************************** 
+*/
+
+.Gallery-container {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: fit-content;
+  background-color: #0a0d13;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  z-index: -1;
+}
+
+/* 
+**************************************************************
+Home Gallery container css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home Gallery Heading and pera container css Start
+*********************************************************************** 
+*/
+
+.Gallery-heading-pera-container {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* 
+**************************************************************
+Home Gallery Heading and pera container css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home Gallery Heading container css Start
+*********************************************************************** 
+*/
+
+.Gallery-heading-container h1 {
+  font-size: var(--Heading-Font);
+  color: var(--Heading-Color);
+  font-family: var(--PlayFair);
+}
+
+/* 
+**************************************************************
+Home Gallery Heading container css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home Gallery pera container css Start
+*********************************************************************** 
+*/
+.Gallery-pera-container p {
+  font-size: var(--Pera-Size);
+  color: var(--Heading-Color);
+  font-family: var(--Mulish);
+}
+
+/* 
+**************************************************************
+Home Gallery pera container css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home Gallery Card items container css Start
+*********************************************************************** 
+*/
+
+.Gallery-slider-items-container {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  /* height: 70vh; */
+  /* border: 2px solid greenyellow; */
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.Gallery-slider-items-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* 
+**************************************************************
+Home Gallery Card items container css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+Home Gallery slider container css Start
+*********************************************************************** 
+*/
+.Gallery-slider-container {
+  position: relative;
+  user-select: none;
+  margin-top: 4rem;
+}
+
+/* 
+**************************************************************
+Home Gallery slider container css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home Gallery slider buttons css Start
+*********************************************************************** 
+*/
+.right-arroww,
+.left-arroww {
+  cursor: pointer;
+}
+
+.left-arrow {
+  height: 100%;
+  width: 4rem;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right-arrow {
+  height: 100%;
+  width: 4rem;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 515px) {
+  .left-arrow {
+    height: 100%;
+    width: 5rem;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .right-arrow {
+    height: 100%;
+    width: 5rem;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .left-arroww,
+  .right-arroww {
+    cursor: none;
+  }
+}
+
+/* 
+**************************************************************
+Home Gallery slider buttons css End
+*********************************************************************** 
+*/

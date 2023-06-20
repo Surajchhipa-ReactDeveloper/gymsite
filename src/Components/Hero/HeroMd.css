@@ -1,0 +1,91 @@
+@media only screen and (max-width: 760px) {
+  .hero_background_img {
+    object-position: right left;
+    width: 100%;
+  }
+  .Border_and_inner_text_container {
+    bottom: 15%;
+    width: 43%;
+  }
+  .Hero_tagline {
+    font-size: 3.4rem;
+  }
+  .Hero_title {
+    font-size: 7.8rem;
+  }
+  .Hero_dis {
+    font-size: 3.1rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .hero_background_img {
+    object-position: top center;
+  }
+  .Text_outer_border {
+    width: 28rem;
+    height: 38rem;
+  }
+  .Hero_tagline {
+    font-size: 3.1rem;
+  }
+  .Hero_title {
+    font-size: 6rem;
+  }
+  .Hero_dis {
+    font-size: 2.8rem;
+    width: 85%;
+  }
+  .Hero_content {
+    bottom: -8%;
+    left: 8%;
+  }
+  .Text_Boredr_orange {
+    width: 26rem;
+    height: 44rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Border_and_inner_text_container {
+    left: 12%;
+  }
+  .hero_background_img {
+    object-position: center;
+  }
+  .Text_outer_border {
+    width: 22rem;
+    height: 32rem;
+  }
+  .Hero_content {
+    bottom: -26%;
+    left: 7.5%;
+    gap: 3.5rem;
+  }
+  .Text_Boredr_orange {
+    width: 24rem;
+    height: 42rem;
+  }
+  .Hero_title {
+    font-size: 5.2rem;
+  }
+  .Hero_img {
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    position: relative;
+  }
+  .Hero_dis {
+    font-size: 2.5rem;
+    width: 96%;
+  }
+  .Btn_OuterBorder {
+    bottom: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 350) {
+  .Hero_dis {
+    /* width: 0%; */
+    font-size: 2.1rem;
+  }
+}

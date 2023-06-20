@@ -1,0 +1,16 @@
+@media only screen and (max-width: 580px) {
+  .Choose_heading {
+    font-size: 5.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Choose_heading {
+    font-size: 4.9rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .Choose_Slider_Container {
+    display: flex;
+    width: 45%;
+  }
+}

@@ -1,0 +1,131 @@
+.Choose_Container {
+}
+.Choose_Container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+.Choose_top_container {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem; */
+}
+.Choose_Heading_And_border_BackText {
+  /* position: relative;
+  align-items: center;
+  width: 100%; */
+}
+.back_text {
+  /* position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #111111;
+  justify-content: center;
+  border: 2px solid green; */
+}
+.Choose_Heading_And_border {
+  /* position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem; */
+}
+.Choose_heading {
+  color: white;
+}
+
+.Choose_Border {
+  /* border: 2px solid #e41c26;
+  width: 18rem; */
+}
+.Choose_caption_container {
+  color: #d1d1d1;
+}
+
+/* ---------------CHOOSE SLIDER CSS---------------- */
+.Choose_Slider_Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8rem;
+  /* border: 2px solid blue; */
+  width: 70%;
+  height: 40vh;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.Choose_Slider_Container::-webkit-scrollbar {
+  display: none;
+}
+.Choose_slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 32rem;
+  gap: 4rem;
+  background-color: #2a2a2a;
+  min-width: 29.9rem;
+  padding: 1.5rem;
+}
+.Slider_Title_Name {
+  color: white;
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+  font-family: "Futura_Bold";
+}
+.Choose_Slider_logo img {
+  height: 9.8rem;
+  width: 9.6rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Slider_Logo_About {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-family: "Futura_Medium";
+}
+.Change_slider_state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 80%;
+  margin-top: 5rem;
+  /* height: 4rem; */
+  /* border: 2px solid red; */
+  /* background-color: rgb(142, 137, 166); */
+}
+.Change_slider_state::-webkit-scrollbar {
+  display: none;
+}
+.Change_slider_state::a {
+  /* background-color: #e41c26; */
+}
+.StateSlide {
+  /* min-width: 70vw; */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #2a2a2a;
+}
+.activeDot {
+  background-color: #e41c26;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

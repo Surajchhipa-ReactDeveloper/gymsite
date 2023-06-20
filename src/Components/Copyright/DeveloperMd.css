@@ -1,0 +1,49 @@
+@media only screen and (max-width: 620px) {
+  .Copyright_container {
+    padding: 2rem 1rem;
+  }
+  .Copyright_First,
+  .Copyright_Second,
+  .Copyright_Third {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-family: "futura_Book_Regular";
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Copyright_First,
+  .Copyright_Second,
+  .Copyright_Third {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-family: "futura_Book_Regular";
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Copyright_First,
+  .Copyright_Second,
+  .Copyright_Third {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-family: "futura_Book_Regular";
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Copyright_First,
+  .Copyright_Second,
+  .Copyright_Third {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-family: "futura_Book_Regular";
+  }
+}
+@media only screen and (max-width: 350px) {
+  .Copyright_First,
+  .Copyright_Second,
+  .Copyright_Third {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: "futura_Book_Regular";
+  }
+}

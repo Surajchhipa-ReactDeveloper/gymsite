@@ -1,0 +1,133 @@
+.VideoSlider_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.VideoSlider_caption_container {
+  color: #7e7e7e;
+  width: 70%;
+}
+.VideoSlider_heading {
+  text-transform: capitalize;
+}
+.Video {
+  width: 100%;
+  min-height: 36.3rem;
+  /* border: 2px solid rgb(0, 255, 102); */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+.VideoSlider_slider {
+  min-width: 60rem;
+  min-height: 40rem;
+  padding: 0.8rem;
+  /* border: 2px solid blue; */
+  position: relative;
+}
+.VideoSlider_video {
+  min-width: 58rem;
+  min-height: 36.3rem;
+  /* border: 2px solid red; */
+  /* position: relative; */
+  cursor: pointer;
+}
+.Video_slider_main_container {
+  display: flex;
+  gap: 9rem;
+  align-items: center;
+  /* justify-content: c; */
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.Video_slider_main_container::-webkit-scrollbar {
+  display: none;
+}
+.SliderVideoFlexContainer {
+  width: 65vw;
+  padding: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 37.1rem;
+  height: 7.7rem;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 10.5rem;
+  z-index: 6;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 0rem 0.2rem 2rem 0.5rem rgba(0, 0, 0, 0.248);
+  /* border: 1px solid black; */
+}
+.Top_Exercise_name_and_type {
+  display: flex;
+  gap: 2rem;
+}
+.Exercise_name,
+.Exercise_type {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #e41c26;
+  font-family: "Sf_pro_Bold";
+}
+.VideoSlider_Slider_About_video {
+  position: relative;
+}
+.About_video {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-family: "Futura_Bold";
+  text-align: center;
+}
+.Change_video_State {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 8rem;
+}
+.VideoSlider {
+  /* min-width: 70vw; */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  gap: 1rem;
+  background-color: #2a2a2a;
+}
+.activeDot {
+  background-color: #e41c26;
+}
+
+.Video_Overlay {
+  background-color: #e41c26;
+  min-width: 58.4rem;
+  min-height: 36.3rem;
+  position: absolute;
+  z-index: 2;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  /* bottom: -32rem; */
+  opacity: 40%;
+  border-radius: 1.9rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  /* left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto; */
+}
+
+.Video_Overlay::-webkit-scrollbar {
+  display: none;
+}

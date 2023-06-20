@@ -1,0 +1,16 @@
+.Gallery-slider-items-container {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  /* height: 99vh; */
+  /* border: 2px solid greenyellow; */
+  /* align-items: center; */
+  /* background-color: cadetblue;    */
+  scroll-behavior: smooth;
+  
+}
+
+.Gallery-slider-items-container::-webkit-scrollbar {
+  display: none;
+}
+

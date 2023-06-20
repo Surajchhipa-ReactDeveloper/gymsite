@@ -1,0 +1,111 @@
+.Blogs_Container_Main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+.Read_more_Blogs_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(0, 255, 106); */
+}
+.Blogs_swap_main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  /* width: 75%; */
+  padding: 0rem 22rem;
+
+}
+.Blog_Main_Data {
+  display: flex;
+  flex-direction: column;
+  width: 40.7rem;
+  /* border: 2px solid rgb(176, 5, 150); */
+  gap: 2.5rem;
+}
+.Blog_Main_Data_Img {
+  position: relative;
+}
+.Blogs_data {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 1.5rem;
+  width: 7.3rem;
+  height: 7rem;
+  background-color: #e41c26;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Sf_pro_Regular";
+  letter-spacing: 0.1rem;
+}
+.Blog_back_img {
+  object-fit: contain;
+  width: 40.7rem;
+  height: 25.2rem;
+  object-position: center;
+}
+.Blog_Admin_date_Comments {
+  display: flex;
+  gap: 1.5rem;
+}
+.Blog_Admin,
+.Blog_Date,
+.Blog_Comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Blog_Logo {
+  width: 2rem;
+  height: 2.2rem;
+  display: flex;
+  object-position: center;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+.Blog_LOGO_TEXT_DIV {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-family: "Sf_pro_Regular";
+}
+.BlogImg_TiTle {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.2rem;
+  font-family: "Sf_pro_Bold";
+}
+.BlogImg_Des {
+  font-size: 1.8rem;
+  line-height: 3.1rem;
+  letter-spacing: 0.1rem;
+  font-family: "Futura_Medium";
+}
+.Read_More_Btn {
+  width: 18rem;
+  border: 1px solid black;
+  padding: 1.1rem 0rem;
+  text-align: center;
+}
+.ViewMore {
+  border: 1px solid #e41c26;
+  color: #e41c26;
+  width: 25rem;
+  padding: 1.2rem 1rem;
+  background-color: white;
+}
+.More_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,59 @@
+@media only screen and (max-width: 613px) {
+  .Category_Common {
+    padding: 3.5rem;
+  }
+  .Background_img_Common img {
+    width: 14rem;
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .Background_img_Common img {
+    width: 12.5rem;
+    height: 8.5rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Category_Common {
+    padding: 3rem;
+  }
+  .Category_type_Common {
+    font-size: 2.4rem;
+  }
+  .Background_img_Common img {
+    width: 12.5rem;
+    height: 8.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Category_Common {
+    padding: 2.8rem;
+  }
+  .Category_type_Common {
+    font-size: 2.3rem;
+  }
+  .Category_text_common {
+    width: 90%;
+    font-size: 2.3rem;
+  }
+  .Background_img_Common img {
+    width: 10rem;
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .Category_Common {
+    padding: 2rem;
+  }
+  .Category_type_Common {
+    font-size: 2.2rem;
+  }
+  .Category_text_common {
+    width: 100%;
+    font-size: 2.2rem;
+  }
+  .Background_img_Common img {
+    width: 9rem;
+    height: 6.5rem;
+  }
+}

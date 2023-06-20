@@ -1,0 +1,8 @@
+.Primary_btn {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-family: "SFProDisplayLight";
+}

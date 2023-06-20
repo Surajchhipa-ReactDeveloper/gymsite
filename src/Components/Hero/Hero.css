@@ -1,0 +1,120 @@
+.hero_silder_home_page {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  background: linear-gradient(180deg, black 0%, white 100%);
+}
+.hero_display {
+  min-width: 100%;
+}
+.Hero_section {
+  position: relative;
+  overflow-x: hidden;
+}
+.Hero_img {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  position: relative;
+}
+.hero_background_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left center;
+  opacity: 99%;
+  position: relative;
+  z-index: -5;
+}
+
+.Border_and_inner_text_container {
+  position: absolute;
+  display: flex;
+  bottom: 20%;
+  max-height: 40%;
+  align-items: center;
+  left: 15%;
+  min-width: 80%;
+  /* border: 2px solid gainsboro; */
+}
+.Text_outer_border {
+  width: 30rem;
+  height: 42rem;
+}
+.Hero_content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  gap: 4.5rem;
+  bottom: 1%;
+  left: 4%;
+  color: white;
+  z-index: 15;
+}
+.Text_Boredr_orange {
+  width: 28rem;
+  height: 44rem;
+}
+
+.Hero_tagline {
+  font-size: 4rem;
+}
+.Hero_title {
+  font-size: 8rem;
+  font-family: "Futura_Medium";
+  font-weight: bold;
+}
+.Hero_dis {
+  font-size: 3.5rem;
+  width: 80%;
+  line-height: 4rem;
+}
+.Join_button {
+  width: 22rem;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1.5rem 2rem;
+}
+.Btn_OuterBorder {
+  position: absolute;
+  width: 5rem;
+  left: -0.9rem;
+  bottom: 3.5rem;
+}
+.Hero_left_right_button {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  z-index:16 ;
+}
+.lfbtn {
+  padding: 2.5rem 3rem;
+  border-radius: 50%;
+  margin: 0rem 3rem;
+  background-color: #ffffff47;
+  color: white;
+  cursor: pointer;
+}
+.SVGBTN{
+  width: 1.5rem;
+  object-fit: cover;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hero_left_button,
+.Hero_right_button {
+  /* width: 3rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lfbtn:hover {
+  background-color: rgba(255, 255, 255, 0.587);
+}

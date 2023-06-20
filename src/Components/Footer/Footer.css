@@ -1,0 +1,62 @@
+.Footer_Container {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+.Footer_box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 43rem;
+}
+
+.Gym_Logo img {
+  color: #e41c26;
+  width: 23.8rem;
+  height: 8.7rem;
+}
+.Display {
+  display: flex;
+  gap: 0.9rem;
+  /* justify-content: center; */
+}
+.Home_logo img,
+.Home_logo img {
+  width: 1.4rem;
+  object-fit: cover;
+}
+.Home_logo,
+.Home_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Adders,
+.Number_developer {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: white;
+  font-family: "futura_Book_Regular";
+
+  /* width: 60%; */
+}
+.Gym_Media_logo img {
+  width: 3.2rem;
+}
+.Gym_Media_logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.FooCoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 13rem;
+}
+.Footer_box_Heading {
+  color: white;
+  font-family: "futura_Medium";
+  font-size: 2.4rem;
+  line-height: 3rem;
+}

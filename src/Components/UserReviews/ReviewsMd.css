@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1430px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 48.5rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 46.5rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 45.5rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 48.5rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 47.5rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 45.5rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 43.5rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 41.5rem;
+  }
+  .Reviews_Title {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 39rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 40rem;
+  }
+  .Reviews_left_side {
+    padding-left: 22%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 39.5rem;
+  }
+  .User_reviews_Update_block {
+    /* border: 2px solid blue; */
+    width: 76%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 37rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 36.5rem;
+  }
+  .User_reviews_Update_block {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 37rem;
+  }
+  .Reviews_left_side {
+    padding-left: 20%;
+  }
+  .Reviews_Title {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .User_Reviews_container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .Reviews_bottom_side_Reviews p {
+    min-width: 85rem;
+  }
+  .User_reviews_Update_block {
+    width: 80%;
+    gap: 8rem;
+    align-items: flex-start;
+    /* padding-left: 12rem; */
+  }
+  .Reviews_left_side {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid lawngreen; */
+    padding-left: 15%;
+  }
+  .Reviews_box_main {
+    gap: 4rem;
+  }
+  .Reviews_Title {
+    width: 49%;
+  }
+  .Reviews_Right_side {
+    align-items: center;
+    justify-content: center;
+  }
+  .Reviews_Right_side img {
+    align-items: center;
+    justify-content: center;
+    min-width: 10%;
+    padding: 4rem 15rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 83rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 78rem;
+  }
+  .Reviews_Right_side img {
+    padding: 1rem 10rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 71rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 67rem;
+  }
+  .Reviews_Title {
+    width: 65%;
+  }
+  .Reviews_Right_side img {
+    padding: 1rem 7rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 64rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 62.5rem;
+  }
+  .User_reviews_Update_block {
+    width: 85%;
+  }
+  .Reviews_Right_side img {
+    padding: 0rem 4rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 59.5rem;
+  }
+  .User_reviews_Update_block {
+    width: 89.5%;
+    gap: 7rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 55rem;
+  }
+  .User_reviews_Update_block {
+    width: 93%;
+    gap: 10rem;
+  }
+  .Reviews_left_side {
+    padding-left: 11%;
+  }
+  .Reviews_Title {
+    width: 76%;
+  }
+  .User_Reviews_container {
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 402px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 52rem;
+  }
+  .User_reviews_Update_block {
+    width: 93%;
+    /* gap: 12rem; */
+  }
+  .Reviews_left_side {
+    padding-left: 8%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .Reviews_bottom_side_Reviews p {
+    min-width: 48rem;
+  }
+  .User_reviews_Update_block {
+    width: 95%;
+    /* gap: 7rem; */
+  }
+  .Reviews_left_side {
+    padding-left: 3.5%;
+  }
+  .Reviews_Title {
+    width: 82%;
+  }
+}

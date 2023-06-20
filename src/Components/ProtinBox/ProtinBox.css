@@ -1,0 +1,27 @@
+.Protean_Box_container {
+  display: flex;
+  align-items: center;
+}
+.Protean_Box_Left_container {
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.Protean_Box_Right_side img {
+  width: 73.9rem;
+  height: 90rem;
+  object-fit: contain;
+  object-position: top center;
+  /* position: absolute; */
+  /* top: 2rem; */
+  right: 5rem;
+}
+.Protean_Box_Right_side {
+  /* width: 73.9rem;
+  height: 73.9rem; */
+
+  position: relative;
+}
+.Protean_Box_Right_container {
+}

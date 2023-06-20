@@ -1,0 +1,83 @@
+* {
+  scroll-behavior: smooth;
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0rem rem;
+  color: rgb(255, 255, 255);
+  background-color: #e41c26;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  user-select: none;
+  box-shadow: 0rem .5rem 2rem rgba(0, 0, 0, 0.231);
+}
+.navbar_left_logo {
+  /* background-color:#E41C26; */
+  min-width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main_logo {
+  object-fit: contain;
+  width: 24.75rem;
+  height: 10.975rem;
+  padding: 0.8rem;
+  /* margin-left: 3rem; */
+}
+.navbar_Right_item {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.navbar_Right_item_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.NavBar_links {
+  gap: 2rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.Navigation_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+.Navigation_links li {
+  padding: 2.2rem 2rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  cursor: pointer;
+  font-family: "futura_Book_Regular";
+
+}
+.Menu_button_container {
+  display: none;
+}
+.search-icon-container {
+  color: black;
+}
+.Hamburger_Navbar_white {
+  height: 6.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  background-color: #e41c26;
+}
+.Three_line_white {
+  object-fit: contain;
+  object-position: center;
+}

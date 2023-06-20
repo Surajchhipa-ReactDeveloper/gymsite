@@ -1,0 +1,35 @@
+.Left_Side_logo_FourIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FourIconImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 6.6rem;
+  min-height: 6.6rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Four_Icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Right_Side_Text_FourIcon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Top_in_dights {
+  font-size: 4.4rem;
+  line-height: 6.7rem;
+  font-family: "Futura_Bold";
+}
+.bottom_in_Words {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-family: "Sf_pro_Regular";
+}

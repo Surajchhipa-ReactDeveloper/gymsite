@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1400px) {
+  .RadBar_Right_Side {
+    min-width: 103rem;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .RadBar_Right_Side {
+    min-width: 100rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .RadBar_Right_Side {
+    min-width: 97rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .RadBar_Right_Side {
+    min-width: 95rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .RadBar_Right_Side {
+    min-width: 93rem;
+  }
+  .RadBar_Right_Side {
+    min-width: 93rem;
+    min-height: 25.4rem;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    max-width: 40.6rem;
+    max-height: 25.4rem;
+  }
+  .RedBar_Title {
+    font-size: 5rem;
+    line-height: 5.8rem;
+  }
+  .RedBar_Description {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    max-width: 65.1rem;
+    max-height: 5.1rem;
+  }
+  .RedBar_Btn {
+    padding: 1rem 1.3rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .RadBar_Right_Side {
+    min-width: 91rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .RadBar_Right_Side {
+    min-width: 89rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .RadBar_Right_Side {
+    min-width: 87rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .RadBar_Right_Side {
+    min-width: 81rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .RadBar_container {
+    /* border: 2px solid royalblue; */
+  }
+  .RadBar_Right_Side {
+    min-width: 71rem;
+    min-height: 21.4rem;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    max-width: 34.6rem;
+    max-height: 21.4rem;
+  }
+  .RedBar_Title {
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+  }
+  .RedBar_Description {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    max-width: 55.1rem;
+    max-height: 5rem;
+  }
+  .RedBar_Btn {
+    padding: 0.8rem 1.3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .RadBar_Right_Side {
+    min-width: 69rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .RadBar_Right_Side {
+    min-width: 65rem;
+  }
+  .RedBar_Title_border {
+    width: 24%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .RadBar_Right_Side {
+    /* min-width: 62rem; */
+    min-height: 19.4rem;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    max-width: 30.6rem;
+    max-height: 19.4rem;
+  }
+  .RedBar_Title {
+    font-size: 4rem;
+    line-height: 3.4rem;
+  }
+  .RedBar_Description {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 55.1rem;
+    max-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .RedBar_Btn {
+    padding: 0.6rem 1.1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .RadBar_Right_Side {
+    /* min-width: 58rem; */
+  }
+}
+@media only screen and (max-width: 650px) {
+  .RadBar_Right_Side {
+    /* min-width: 54rem; */
+    min-height: 16.4rem;
+    padding-left: 1rem;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    /* max-width: 26.6rem; */
+    /* border: 2px solid goldenrod; */
+    max-height: 16.4rem;
+  }
+  .RedBar_Title {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+  .RedBar_Description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    /* max-width: 48.1rem; */
+    max-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .RedBar_Btn {
+    padding: 0.3rem 1.1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .RadBar_Right_Side {
+    /* min-width: 50rem; */
+  }
+  .RedBar_Title_border {
+    width: 28%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .RadBar_Right_Side {
+    /* min-width: 45rem;/ */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .RadBar_Right_Side {
+    /* min-width: 40rem; */
+    min-height: 16.4rem;
+    padding-left: 1rem;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    max-width: 26.6rem;
+    /* border: 2px solid goldenrod; */
+    max-height: 16.4rem;
+  }
+  .RedBar_Title {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+  .RedBar_Description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    max-width: 48.1rem;
+    max-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .RedBar_Btn {
+    padding: 0.3rem 1.1rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .RadBar_Right_Side {
+    min-width: 35rem;
+    min-height: 16.4rem;
+    padding-left: 1rem;
+  }
+  .RedBar_Title_border {
+    width: 35%;
+  }
+  .RadBar_Left_Side,
+  .RadBar_Left_Side img {
+    max-width: 26.6rem;
+    /* border: 2px solid goldenrod; */
+    max-height: 16.4rem;
+  }
+  .RedBar_Title {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+  .RedBar_Description {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    max-width: 48.1rem;
+    max-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .RedBar_Btn {
+    padding: 0.3rem 0.5rem;
+  }
+}

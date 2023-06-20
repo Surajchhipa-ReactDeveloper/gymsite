@@ -1,0 +1,16 @@
+.Copyright_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  background-color: #000000c1;
+  color: white;
+}
+.Copyright_First,
+.Copyright_Second,
+.Copyright_Third {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+   font-family: "futura_Book_Regular";
+
+}

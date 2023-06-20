@@ -1,0 +1,113 @@
+@media only screen and (max-width: 1450px) {
+  .Protean_Box_Right_side img {
+    height: 88rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .Protean_Box_Right_side img {
+    height: 86rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Protean_Box_Right_side img {
+    height: 83.5rem;
+    width: 68rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Protean_Box_Right_side img {
+    height: 82rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .Protean_Box_Right_side img {
+    width: 67rem;
+    height: 83rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Protean_Box_Right_side img {
+    height: 83rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Protean_Box_Right_side img {
+    height: 82rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Protean_Box_Right_side img {
+    width: 63rem;
+    height: 78rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Protean_Box_Right_side img {
+    width: 60.5rem;
+    height: 75rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Protean_Box_Right_side img {
+    height: 73.5rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Protean_Box_Right_side img {
+    width: 56rem;
+    height: 68rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Protean_Box_Right_side img {
+    height: 64rem;
+    width: 53rem;
+  }
+  .Protean_Box_Left_container {
+    padding-left: 5rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Protean_Box_Right_side img {
+    height: 62.5rem;
+    width: 51rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Protean_Box_Right_side img {
+    height: 60rem;
+    width: 49.5rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Protean_Box_Right_side img {
+    height: 58rem;
+    width: 47rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Protean_Box_Left_container {
+    /* display: none; */
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .Protean_Box_Right_side img {
+    width: 65rem;
+    object-position: bottom;
+    height: 68rem;
+  }
+  .Protean_Box_container{
+    flex-direction: column;
+  }
+  .Common_White_Description{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Protean_Box_Right_side img {
+    width: 50rem;
+    object-position: bottom;
+    height: 56rem;
+  }
+}
