@@ -59,7 +59,6 @@
     min-width: 39.5rem;
   }
   .User_reviews_Update_block {
-    /* border: 2px solid blue; */
     width: 76%;
   }
 }
@@ -99,12 +98,10 @@
     width: 80%;
     gap: 8rem;
     align-items: flex-start;
-    /* padding-left: 12rem; */
   }
   .Reviews_left_side {
     display: flex;
     width: 100%;
-    /* border: 2px solid lawngreen; */
     padding-left: 15%;
   }
   .Reviews_box_main {
@@ -202,7 +199,6 @@
   }
   .User_reviews_Update_block {
     width: 93%;
-    /* gap: 12rem; */
   }
   .Reviews_left_side {
     padding-left: 8%;
@@ -214,7 +210,6 @@
   }
   .User_reviews_Update_block {
     width: 95%;
-    /* gap: 7rem; */
   }
   .Reviews_left_side {
     padding-left: 3.5%;

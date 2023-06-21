@@ -4,7 +4,6 @@ import "./ReviewsMd.css";
 import UserDataService from "./ReviewsData";
 import { Images } from "../../Constant/imagePath";
 import { Icon } from "../../Constant/iconPath";
-import Fade from "react-reveal/Fade";
 
 const Reviews = () => {
   const [userReviews] = useState(UserDataService);
@@ -25,7 +24,6 @@ const Reviews = () => {
   };
   return (
     <>
-      <Fade bottom>
         <div className="User_Reviews_container">
           <div className="Reviews_left_side">
             <div className="Top_Reviews_fixed_block">
@@ -71,7 +69,6 @@ const Reviews = () => {
             <img src={Images.Four_img} alt="" />
           </div>
         </div>
-      </Fade>
     </>
   );
 };

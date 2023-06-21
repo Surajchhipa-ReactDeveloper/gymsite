@@ -2,9 +2,6 @@ import React, { useRef, useState } from "react";
 import "./SingleVideo.css";
 import "./SingleVideoMd.css";
 import { Images } from "../../Constant/imagePath";
-import { GrPlay } from "react-icons/gr";
-import { CiPause1 } from "react-icons/ci";
-import Slide from "react-reveal/Slide";
 const SingleVideo = () => {
 const [playing, setPlaying] = useState(false);
 
@@ -18,15 +15,8 @@ const videoRef = useRef(null);
      setPlaying(false);
    }
  };
-  // const handlePlay = () => {
-  //   videoRef.current.play();
-  // };
-  // const handlePause = () => {
-  //   videoRef.current.pause();
-  // };
   return (
     <>
-      <Slide left>
         <div className="SingleVideo_container">
           <div className="BackGround_line_and_Vertical_line">
             <div className="Vertical_line Common_Vertical_line">VIDEO</div>
@@ -70,7 +60,6 @@ const videoRef = useRef(null);
             </div>
           </div>
         </div>
-      </Slide>
     </>
   );
 };

@@ -2,12 +2,9 @@ import React from "react";
 import "./About.css";
 import "./AboutMd.css";
 import { Icon } from "../../Constant/iconPath";
-import { Images } from "../../Constant/imagePath";
-import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <>
-      <Fade bottom>
         <div className=" About_US_Section about" id="about">
           <div className="About_Left_section">
             <div className="About_Left_section_text_top">
@@ -64,7 +61,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };

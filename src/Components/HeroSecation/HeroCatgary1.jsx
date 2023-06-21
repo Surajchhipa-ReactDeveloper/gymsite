@@ -2,13 +2,11 @@ import React from "react";
 import "./HeroCatgary.css";
 import "./HeroCatgaryMd.css";
 import { Icon } from "../../Constant/iconPath";
-import Fade from "react-reveal/Fade";
 
 
 const HeroCategory1 = () => {
   return (
     <>
-      <Fade Left>
         <div className="Hero_category1">
           <div className="Category1 Category_Common">
             <div className="Category_img">
@@ -27,7 +25,6 @@ const HeroCategory1 = () => {
             <img src={Icon.Clock_logo} alt="" />
           </div>
         </div>
-      </Fade>
     </>
   );
 };

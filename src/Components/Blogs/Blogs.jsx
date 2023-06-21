@@ -5,10 +5,9 @@ import OurBlogsData from "./BlogsData";
 import { Icon } from "../../Constant/iconPath";
 import BackText from "../../Comman/BackHeading/BackText";
 import Secondary from "../../Comman/Button/SecondaryBtn/Secondary";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+
 const Blogs = () => {
-  const [BlogsMore] = useState(OurBlogsData);
+  // const [BlogsMore] = useState(OurBlogsData);
   const [VideoSlide, setVideoSlide] = useState(3);
   const Splice = OurBlogsData.slice(0, VideoSlide);
 
@@ -17,7 +16,6 @@ const Blogs = () => {
   };
   return (
     <>
-      <Fade bottom>
         <div className="Our_blogs_Container">
           <div className="Blogs_Container_Main">
             <div className="OurBlog_Top_container Common_container_with_back_text">
@@ -52,7 +50,6 @@ const Blogs = () => {
                   } = Blog;
                   return (
                     <div className="Blog_Main_Data" id={id} key={index}>
-                      <Fade bottom>
                         <div className="Blog_Main_Data_Img">
                           <div className="Blog_img">
                             <img
@@ -109,7 +106,6 @@ const Blogs = () => {
                         <div className="Read_More_Btn">
                           <Secondary BtnText="READ MORE" />
                         </div>
-                      </Fade>
                     </div>
                   );
                 })}
@@ -124,7 +120,6 @@ const Blogs = () => {
             )}
           </div>
         </div>
-      </Fade>
     </>
   );
 };

@@ -4,7 +4,6 @@ import "./SmallProteanMd.css";
 import { Images } from "../../Constant/imagePath";
 import Primary from "../../Comman/PrimaryBtn/Primary";
 import Secondary from "../../Comman/Button/SecondaryBtn/Secondary";
-import Slide from "react-reveal/Slide";
 const data = [
   {
     id: 1,
@@ -46,7 +45,6 @@ const SmallProtean = () => {
 
   return (
     <>
-      <Slide bottom>
         <div className="Whey_ProTein_container shop" id="shop">
           <div className="Vertical_text_Protein Common_Vertical_line">
             PROTEIN
@@ -92,7 +90,6 @@ const SmallProtean = () => {
                       style={{
                         backgroundColor: isActive === index ? "black" : "",
                         color: isActive === index ? "white" :"",
-                        // transform: scale(0.5),
                       }}
                       key={index + item.id}
                     >
@@ -114,7 +111,6 @@ const SmallProtean = () => {
             </div>
           </div>
         </div>
-      </Slide>
     </>
   );
 };

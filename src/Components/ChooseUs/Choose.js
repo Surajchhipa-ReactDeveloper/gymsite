@@ -3,8 +3,6 @@ import "./Choose.css";
 import "./ChooseMd.css";
 import ChooseData from "./ChooseData";
 import BackText from "../../Comman/BackHeading/BackText";
-import Fade from "react-reveal/Fade";
-import { yellow } from "@mui/material/colors";
 
 const Choose = () => {
   const [ChooseSlider] = useState(ChooseData);
@@ -14,12 +12,12 @@ const Choose = () => {
   useEffect(() => {
     const slideInterval = setInterval(() => {
       goToNextSlide();
-    }, 6000);
+    }, 4000);
 
     return () => {
       clearInterval(slideInterval);
     };
-  }, []);
+  },);
 
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % ChooseSlider.length);
@@ -40,7 +38,6 @@ const Choose = () => {
 
   return (
     <>
-      <Fade bottom>
         <div className="Choose_Container1">
           <div className="Choose_Container">
             <div className="Choose_top_container Common_container_with_back_text">
@@ -65,7 +62,7 @@ const Choose = () => {
 
             <div className="Choose_Slider_Container" ref={sliderRef}>
               {ChooseSlider.map((item, index) => {
-                const { id, name, Photo, DES } = item;
+                const { id, name, Seen, DES } = item;
 
                 return (
                   <div
@@ -76,7 +73,7 @@ const Choose = () => {
                   >
                     <div className="Slider_Title_Name">{name}</div>
                     <div className="Choose_Slider_logo">
-                      <img src={Photo} alt="" />
+                      <img src={Seen} alt="" />
                     </div>
                     <div className="Slider_Logo_About">{DES}</div>
                   </div>
@@ -98,7 +95,6 @@ const Choose = () => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };

@@ -3,12 +3,10 @@ import "./ProtinBox.css";
 import "./ProtinBoxMd.css";
 import { Images } from "../../Constant/imagePath";
 import Primary from "../../Comman/PrimaryBtn/Primary";
-import Fade from "react-reveal/Fade";
 
 const ProteanBox = () => {
   return (
     <>
-      <Fade bottom>
         <div className="Protean_Box_container">
           <div className="Protean_Box_Left_container">
             <div className="Protean_Title_And_Border Common_White_border_and_text_div">
@@ -32,7 +30,6 @@ const ProteanBox = () => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };

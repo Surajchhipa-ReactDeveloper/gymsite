@@ -51,7 +51,6 @@
   border-radius: 3rem;
   background-color: #ececec;
   border: 1px solid black;
-  /* transform: scale(0.2); */
 }
 .Protain_KG_1_btn:hover {
   transform: scale(1.01);

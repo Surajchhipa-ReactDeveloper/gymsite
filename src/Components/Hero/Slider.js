@@ -27,14 +27,14 @@ const Slider = () => {
   return (
     <div className="Gallery-slider-items-container home" ref={RAf} id="home">
       {heroPages.map((item, indexSlider) => {
-        const { id, IMG, TagLine, TitleLine, DisLine } = item;
+        const { id, PIC, TagLine, TitleLine, DisLine } = item;
         return (
           <div className="hero_display">
             <div className="Hero_section" id={id} key={indexSlider}>
               <div className="Hero_img">
                 <img
                   className="hero_background_img"
-                  src={IMG}
+                  src={PIC}
                   alt="Loading image..."
                 />
               </div>

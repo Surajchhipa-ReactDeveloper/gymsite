@@ -3,12 +3,10 @@ import "./RedBar.css";
 import "./RadBarMd.css";
 import { Images } from "../../Constant/imagePath";
 import Primary from "../../Comman/PrimaryBtn/Primary";
-import Fade from "react-reveal/Fade";
 
 const RedBar = (props) => {
   return (
     <>
-      <Fade Bottom>
         <div className="RadBar_container_position">
           <div className="RadBar_container">
             <div className="RadBar_Left_Side">
@@ -32,7 +30,6 @@ const RedBar = (props) => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };

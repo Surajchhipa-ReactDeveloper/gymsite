@@ -22,8 +22,6 @@ import Form from "./Components/Deatils/Form";
 import FOOTER from "./Components/Footer/Footer";
 import Developer from "./Components/Copyright/Developer";
 import { Images } from "./Constant/imagePath";
-import Pulse from "react-reveal/Pulse";
-import Fade from "react-reveal/Fade";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -116,11 +114,8 @@ const App = () => {
             <div className="Gym_webSite_ProteanBox">
               <ProteanBox />
             </div>
-            <Pulse>
               <div className="Gym_webSite_Vertical_Line">PROTEIN</div>
-            </Pulse>
             <div className="box_line">
-              <Fade Bottom>
                 <div className="center">
                   <div className="Orange_outer">
                     <img
@@ -137,7 +132,6 @@ const App = () => {
                     </div>
                   </div>
                 </div>
-              </Fade>
             </div>
             <div className="Gym_webSite_SmallProteanBox" id="SHOP">
               <SmallProtean />

@@ -3,8 +3,6 @@ import "./Navbar.css";
 import "./NavbarMd.css";
 import Contact from "../Contact/Contact";
 import { Icon } from "../../Constant/iconPath";
-import { FaBeer } from "react-icons/fa";
-import { HiMenuAlt3 } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Navbar = () => {

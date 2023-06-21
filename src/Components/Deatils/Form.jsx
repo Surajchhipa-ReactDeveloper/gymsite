@@ -2,12 +2,10 @@ import React from "react";
 import "./Form.css";
 import "./FormMd.css";
 import Primary from "../../Comman/PrimaryBtn/Primary";
-import Fade from "react-reveal/Fade";
 
 const Form = () => {
   return (
     <>
-      <Fade bottom>
         <div className="User_Form Contact" id="Contact">
           <div className="User_Form_Left_Container">
             <div className="User_Form_top_Heading">LETS START!</div>
@@ -31,7 +29,6 @@ const Form = () => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };

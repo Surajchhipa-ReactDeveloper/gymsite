@@ -3,12 +3,10 @@ import "./Footer.css";
 import "./FooterMd.css";
 import { Icon } from "../../Constant/iconPath";
 import Cate from "../../Comman/Catagary/Cate";
-import Fade from "react-reveal/Fade";
 
 const FOOTER = () => {
   return (
     <>
-      <Fade bottom>
         <div className="Footer_Container faq" id="faq">
           <div className="Footer_box1">
             <div className="Gym_Logo">
@@ -54,7 +52,6 @@ const FOOTER = () => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   );
 };
